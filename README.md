@@ -80,7 +80,7 @@ Things you may want to cover:
 
 |------|----|-------|
 
-|name|string|null :false, unique :true|
+|name|string|null :false, unique :true, index: true|
 
 |email|string|null :false, unique :true|
 
@@ -92,7 +92,7 @@ Things you may want to cover:
 
 -has_many :group_users
 
--has_many :group, through::group_users 
+-has_many :groups, through::group_users 
 
 
 
